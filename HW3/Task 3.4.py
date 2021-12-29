@@ -1,4 +1,5 @@
 def x_pow (x, y):
+
     try:
         x, y = float(x), int(y)
         if x<=0 or y>=0:
@@ -10,6 +11,7 @@ def x_pow (x, y):
             return f'Результат: {round(result, 6)}'
     except ValueError:
         return 'Введите числа'
+
 
 print(x_pow(2,-3))
 
